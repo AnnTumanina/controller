@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane id="pane" alignment="center" hgap="10" prefHeight="235.0" prefWidth="392.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="235.0" prefWidth="409.0">
+         <children>
+            <TextField fx:id="firstNum" layoutX="37.0" layoutY="33.0" prefHeight="25.0" prefWidth="39.0" />
+            <TextField fx:id="secondNum" layoutX="131.0" layoutY="34.0" prefHeight="25.0" prefWidth="39.0" />
+            <TextField fx:id="thirdNum" layoutX="217.0" layoutY="35.0" prefHeight="25.0" prefWidth="39.0" />
+            <TextField fx:id="lastNum" layoutX="285.0" layoutY="35.0" prefHeight="25.0" prefWidth="39.0" />
+            <Label layoutX="85.0" layoutY="29.0" text="^3" />
+            <Label layoutX="176.0" layoutY="30.0" text="^2" />
+            <Label layoutX="82.0" layoutY="37.0" text="x" />
+            <Label layoutX="173.0" layoutY="39.0" text="x" />
+            <Label layoutX="260.0" layoutY="39.0" text="x" />
+            <Label layoutX="331.0" layoutY="39.0" text="= 0" />
+            <Button fx:id="result" layoutX="229.0" layoutY="85.0" mnemonicParsing="false" onAction="#getResult" text="Решить" />
+            <Label layoutX="62.0" layoutY="140.0" text="Ответ" />
+            <Label fx:id="res1" layoutX="228.0" layoutY="140.0" prefHeight="17.0" prefWidth="75.0" />
+            <Label fx:id="res2" layoutX="123.0" layoutY="140.0" prefHeight="17.0" prefWidth="75.0" />
+            <Label layoutX="107.0" layoutY="38.0" text="+" />
+            <Label layoutX="196.0" layoutY="39.0" text="+" />
+            <Label layoutX="270.0" layoutY="39.0" text="+" />
+            <Button fx:id="help" layoutX="101.0" layoutY="85.0" mnemonicParsing="false" onAction="#getHelp" text="Справка" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
